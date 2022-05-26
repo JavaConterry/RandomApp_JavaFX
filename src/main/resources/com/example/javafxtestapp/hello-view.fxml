@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="800.0" style="-fx-pref-height: 500; -fx-pref-width: 800;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.javafxtestapp.AppController">
+   <children>
+      <AnchorPane prefHeight="100.0" prefWidth="600.0" scaleShape="false" style="-fx-background-color: #cfe2e2; -fx-pref-width: 800; -fx-pref-height: 100;">
+         <children>
+            <Text layoutX="375.0" layoutY="55.0" stroke="BLACK" strokeType="OUTSIDE" strokeWidth="0.0" text="Random number app" wrappingWidth="244.53680419921875">
+               <font>
+                  <Font name="MV Boli" size="22.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+      <AnchorPane prefHeight="500.0" prefWidth="150.0" scaleShape="false" style="-fx-background-color: #5f9ea0; -fx-pref-height: 500; -fx-pref-width: 150;" />
+      <Slider fx:id="inputSlider" layoutX="338.0" layoutY="212.0" majorTickUnit="5.0" max="10.0" opacity="0.5" prefHeight="14.0" prefWidth="265.0" showTickLabels="true" showTickMarks="true" />
+      <Label fx:id="randField" alignment="CENTER" layoutX="494.0" layoutY="283.0" prefHeight="46.0" prefWidth="226.0" style="-fx-border-radius: 30; -fx-border-color: #5f9ea0;" text="Random number">
+         <font>
+            <Font name="MV Boli" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="outputSliderField" alignment="CENTER" layoutX="430.0" layoutY="128.0" prefHeight="70.0" prefWidth="81.0" text="Length of number" textAlignment="CENTER">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Label>
+      <Label layoutX="430.0" layoutY="288.0" text="Your:">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+   </children>
+   <opaqueInsets>
+      <Insets />
+   </opaqueInsets>
+</AnchorPane>
